@@ -16,11 +16,15 @@ I'm on a **60-day journey** dedicated to mastering **Data Structures and Algorit
 
 ---
 
+<div align="center">
+
 ## 🔥 **WHAT I DO DAILY**
 
 | 💻 **PRACTICE** | 🧠 **ANALYZE** | ⚡ **OPTIMIZE** | 🏆 **LEVEL UP** |
 |:---:|:---:|:---:|:---:|
 | Code challenges | Multiple approaches | Time & Space complexity | Skills grow stronger |
+
+</div>
 
 ---
 
