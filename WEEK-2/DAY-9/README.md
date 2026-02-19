@@ -60,15 +60,23 @@ Today I focused on **two-pointer problems on arrays and strings**, including **f
 
 ---
 
+## 8️⃣ Palindrome Check
+
+- **Problem:** Given a string, check if it reads the same forwards and backwards (ignoring spaces and punctuation).
+- **Logic:** Use two pointers (`left` and `right`) starting at both ends, compare characters and move inward until pointers meet.
+- **Example:** `"racecar"` → `True`, `"A man a plan a canal Panama"` → `True`, `"hello"` → `False`
+
+---
+
 ## ✅ Key Skills Practiced
 
 - **Two-Pointer Technique** — left/right scanning, slow/fast pointer usage
 - **In-Place Array Modification** — removing duplicates, removing elements, moving zeros
 - **Array Traversal & Logic** — pair sum, squared array, index tracking
-- **String Manipulation** — reversing words while handling extra spaces
-- **Edge Case Handling** — empty arrays, multiple duplicates, multiple spaces
+- **String Manipulation** — reversing words, palindrome checking, handling spaces and punctuation
+- **Edge Case Handling** — empty arrays, multiple duplicates, multiple spaces, mixed case strings
 - **Optimization Awareness** — O(n) scanning, O(1) extra space where possible
 
 ---
 
-This practice consolidated **Day 9 concepts** and strengthened **two-pointer logic, in-place array/string manipulations, pair finding, and edge case handling**, preparing me for **more advanced array/string problems** in upcoming DSA practice.
+This practice consolidated **Day 9 concepts** and strengthened **two-pointer logic, in-place array/string manipulations, pair finding, palindrome checking, and edge case handling**, preparing me for **more advanced array/string problems** in upcoming DSA practice.
