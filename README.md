@@ -259,3 +259,140 @@ I'm on a **60-day journey** dedicated to mastering **Data Structures and Algorit
 - [📁 Day 14: Revision + Mock Practice](./WEEK-2/DAY-14/README.md)
 
 ---
+
+# 📊 Week 3 Progress Tracker: Hashing, Recursion & Backtracking
+
+### Week 3 Status: ✅ COMPLETED
+
+> *"Mastered three interconnected paradigms — Hashing for efficient lookups, Recursion for problem decomposition, and Backtracking for systematic exploration of possibilities"*
+
+---
+
+### 📅 Daily Progress Summary
+
+| Day | Topic | Status | Key Learnings |
+|-----|-------|--------|---------------|
+| **Day 15** | Hash Maps — Deep Dive | ✅ Completed | Frequency counting, duplicate detection, two sum, group anagrams, O(1) lookup optimization |
+| **Day 16** | Advanced Hashing & Consecutive Sequences | ✅ Completed | Longest consecutive sequence, first repeating element, subarray sum, set-based optimization |
+| **Day 17** | Recursion Basics & Call Stack | ✅ Completed | Base cases, call stack tracing, factorial, Fibonacci, sum of digits, conditional recursion |
+| **Day 18** | Recursion Patterns | ✅ Completed | Include/exclude pattern, divide & conquer, sequence recursion, climb stairs, power set |
+| **Day 19** | Backtracking | ✅ Completed | Subsets, permutations, combinations, combination sum, choose→explore→undo pattern |
+| **Day 20** | Combination Problems | ✅ Completed | n choose k, reuse vs non-reuse, duplicate handling, combination sum II |
+| **Day 21** | Week 3 Revision | ✅ Completed | Comprehensive review of hashing, recursion, and backtracking with mixed practice |
+
+---
+
+### 🎯 Key Techniques Mastered in Week 3
+
+#### 🔹 **Hashing Techniques**
+- ✅ **Hash Map Fundamentals** - O(1) lookups and updates, frequency counting
+- ✅ **Set-Based Operations** - Membership testing, duplicate detection
+- ✅ **Complement-Based Logic** - Two Sum and pair-finding problems
+- ✅ **Grouping Data** - Using transformed keys (sorted strings) for categorization
+- ✅ **Consecutive Sequence Detection** - Set-based O(n) approach without sorting
+
+#### 🔹 **Recursion Patterns**
+- ✅ **Base Case Identification** - Essential for preventing infinite recursion
+- ✅ **Call Stack Understanding** - Tracing "going down" vs "coming up"
+- ✅ **Mathematical Recursion** - Factorial, sum, power calculations
+- ✅ **Sequence Recursion** - Fibonacci and dependent subproblems
+- ✅ **Divide & Conquer** - Halving problems for O(log n) depth
+- ✅ **Part-Wise Recursion** - Breaking inputs into smaller parts (digits)
+
+#### 🔹 **Backtracking Patterns**
+- ✅ **Include/Exclude Pattern** - Foundation for subsets and combinatorial generation
+- ✅ **Permutation Generation** - All possible orderings with element tracking
+- ✅ **Controlled Selection** - Start index for combinations, reuse vs non-reuse
+- ✅ **Pruning** - Early termination when constraints violated (total > target)
+- ✅ **Duplicate Handling** - Sorting + skipping identical elements at same recursion level
+- ✅ **Path Management** - Appending and popping to maintain current state
+
+#### 🔹 **Optimization Skills**
+- ✅ **Time Complexity Reduction** - O(n²) → O(n) using hash maps
+- ✅ **Recursion Depth Optimization** - Divide & conquer for O(log n) instead of O(n)
+- ✅ **Pruning** - Eliminating impossible branches early in backtracking
+- ✅ **Memoization Awareness** - Recognizing when recursion can be optimized
+
+---
+
+### 💪 Problems Solved: 40+ Practice Problems
+
+| Problem Category | Number Solved | Key Problems |
+|-----------------|---------------|--------------|
+| Hash Map Problems | 10+ | Frequency count, two sum, first duplicate, group anagrams |
+| Set-Based Problems | 6+ | Contains duplicate, common elements, longest consecutive sequence |
+| Recursion Basics | 8+ | Factorial, Fibonacci, sum of digits, power calculation |
+| Recursion Patterns | 6+ | Climb stairs, subset count, divide & conquer power |
+| Backtracking | 6+ | Subsets, permutations, combinations of size k |
+| Combination Sum | 4+ | Combination sum I & II, reuse vs non-reuse variants |
+
+---
+
+### 📈 Complexity Patterns Mastered
+
+| Technique | Time Complexity | Space Complexity | Use Case |
+|-----------|-----------------|------------------|----------|
+| Hash Map Lookup | O(n) | O(n) | Frequency counting, two sum, duplicates |
+| Set Operations | O(n) | O(n) | Existence checks, common elements |
+| Longest Consecutive Sequence | O(n) | O(n) | Sequence finding without sorting |
+| Simple Recursion | O(n) | O(n) | Factorial, sum of N, printing |
+| Fibonacci (naive) | O(2ⁿ) | O(n) | Sequence problems (needs optimization) |
+| Divide & Conquer Recursion | O(log n) | O(log n) | Power calculation, binary exponentiation |
+| Subsets (Backtracking) | O(2ⁿ) | O(n) | All possible combinations |
+| Permutations (Backtracking) | O(n!) | O(n) | All possible orderings |
+| Combinations (n choose k) | O(C(n,k)) | O(k) | Fixed-size selections |
+| Combination Sum | O(2ⁿ) approx | O(n) | Target sum with/without reuse |
+
+---
+
+### 🏆 Week 3 Achievements
+
+- ✅ Mastered 3 core paradigms: Hashing, Recursion, and Backtracking
+- ✅ Learned to transform O(n²) nested loops into O(n) hash-based solutions
+- ✅ Understood recursion deeply — from call stack tracing to advanced patterns
+- ✅ Built systematic exploration skills with backtracking
+- ✅ Solved 40+ problems across all three paradigms
+- ✅ Developed ability to choose between reuse vs non-reuse in combinations
+- ✅ Mastered duplicate handling in combinatorial problems
+- ✅ Created comprehensive documentation for each technique
+
+---
+
+### 🔥 Key Takeaways from Week 3
+
+1. **Hash maps enable O(1) lookups** — Transform nested loops into linear solutions
+2. **Sets are for existence, maps are for frequency** — Choose based on whether counts matter
+3. **Recursion requires clear base cases** — Without them, recursion never ends
+4. **"Going down" vs "coming up"** — Understanding when operations happen relative to recursive calls
+5. **Divide & conquer reduces depth** — Halving problems achieves O(log n) recursion depth
+6. **Backtracking = choose → explore → undo** — The universal pattern for combinatorial problems
+7. **Start index controls combinations** — i+1 for no reuse, i for reuse allowed
+8. **Duplicate handling requires sorting** — Then skip identical elements at same recursion level
+9. **Pruning optimizes backtracking** — Stop early when constraints are violated
+10. **Pattern recognition improves with practice** — Mixed revision reveals which technique fits which problem
+
+---
+
+### 🔗 Connections Between Topics Mastered
+
+| Topic Connection | Why It Matters |
+|------------------|----------------|
+| Hash Maps → Recursion | Both decompose problems — maps by key-value, recursion by smaller instances |
+| Recursion → Backtracking | Backtracking IS recursion with exploration and undo |
+| Include/Exclude → Subsets | The foundation pattern for all combinatorial generation |
+| Two Sum → Combination Sum | Both find pairs/sets summing to target — maps for pairs, backtracking for combinations |
+| Fibonacci → Climb Stairs | Same recursive pattern applied to different contexts |
+| Group Anagrams → Combinations | Both use grouping — sorted strings vs selected elements |
+
+---
+
+### 📂 Week 3 Resources
+- [📁 Day 15: Hash Maps — Deep Dive](./WEEK-3/DAY-15/README.md)
+- [📁 Day 16: Advanced Hashing & Consecutive Sequences](./WEEK-3/DAY-16/README.md)
+- [📁 Day 17: Recursion Basics & Call Stack](./WEEK-3/DAY-17/README.md)
+- [📁 Day 18: Recursion Patterns](./WEEK-3/DAY-18/README.md)
+- [📁 Day 19: Backtracking](./WEEK-3/DAY-19/README.md)
+- [📁 Day 20: Combination Problems](./WEEK-3/DAY-20/README.md)
+- [📁 Day 21: Week 3 Revision](./WEEK-3/DAY-21/README.md)
+
+---
