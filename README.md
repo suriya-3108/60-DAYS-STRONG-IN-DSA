@@ -396,3 +396,144 @@ I'm on a **60-day journey** dedicated to mastering **Data Structures and Algorit
 - [📁 Day 21: Week 3 Revision](./WEEK-3/DAY-21/README.md)
 
 ---
+
+# 📊 Week 4 Progress Tracker: Searching & Sorting
+
+### Week 4 Status: ✅ COMPLETED
+
+> *"Mastered core searching and sorting algorithms — from basic linear search to advanced divide-and-conquer techniques like Merge Sort and Quick Sort, building foundation for efficient problem-solving"*
+
+---
+
+### 📅 Daily Progress Summary
+
+| Day | Topic | Status | Key Learnings |
+|-----|-------|--------|---------------|
+| **Day 22** | Linear & Binary Search | ✅ Completed | Linear search fundamentals, binary search iterative/recursive, last occurrence tracking, O(n) → O(log n) optimization |
+| **Day 23** | Binary Search Variations | ✅ Completed | First/last occurrence, count occurrences, lower bound, upper bound, boundary condition handling |
+| **Day 24** | Sorting Basics | ✅ Completed | Bubble sort, selection sort, insertion sort, understanding comparison mechanics and element shifting |
+| **Day 25** | Merge Sort & Quick Sort | ✅ Completed | Divide & conquer strategy, merge sort implementation, quick sort partitioning, O(n²) → O(n log n) improvement |
+| **Day 26** | Sorting-Based Problems | ✅ Completed | Two sum with sorting, contains duplicate, merge intervals, array intersection, Dutch national flag problem |
+| **Day 27** | Searching & Sorting Revision | ✅ Completed | Comprehensive review of all algorithms, complexity comparisons, technique selection |
+| **Day 28** | Mixed Practice & Mock Problems | ✅ Completed | Search insert position, first/last position in sorted array, peak element, move zeroes with two-pointer |
+
+---
+
+### 🎯 Key Techniques Mastered in Week 4
+
+#### 🔹 **Searching Techniques**
+- ✅ **Linear Search** - Sequential scanning for unsorted arrays, O(n) time
+- ✅ **Binary Search (Iterative & Recursive)** - Divide-and-conquer search, O(log n) time
+- ✅ **First/Last Occurrence** - Modified binary search for duplicate handling
+- ✅ **Lower/Upper Bound** - Finding boundaries (first ≥ target, first > target)
+- ✅ **Count Occurrences** - Using first and last indices to count duplicates
+- ✅ **Search Insert Position** - Binary search adaptation for insertion points
+
+#### 🔹 **Sorting Algorithms**
+- ✅ **Bubble Sort** - Repeated adjacent swaps, O(n²) time, stable sort
+- ✅ **Selection Sort** - Select minimum and place in position, O(n²) time
+- ✅ **Insertion Sort** - Build sorted array incrementally, O(n²) time, good for nearly sorted data
+- ✅ **Merge Sort** - Divide array into halves, merge sorted halves, O(n log n) time, stable
+- ✅ **Quick Sort** - Choose pivot, partition, recursively sort, O(n log n) average, in-place
+
+#### 🔹 **Array Manipulation Patterns**
+- ✅ **Two-Pointer on Sorted Arrays** - Efficient traversal from both ends
+- ✅ **Interval Merging** - Sort by start time, merge overlapping ranges
+- ✅ **Dutch National Flag** - Three-way partitioning with three pointers
+- ✅ **In-Place Modification** - Move zeros, partition without extra space
+- ✅ **Squared Sorted Array** - Two-pointer from ends for absolute values
+
+#### 🔹 **Optimization Skills**
+- ✅ **Time Complexity Reduction** - O(n²) → O(n log n) with advanced sorting
+- ✅ **Search Optimization** - O(n) → O(log n) with binary search
+- ✅ **Space Efficiency** - In-place sorting vs auxiliary space trade-offs
+- ✅ **Stability Awareness** - When element order preservation matters
+- ✅ **Edge Case Handling** - Duplicates, empty arrays, single elements, boundaries
+
+---
+
+### 💪 Problems Solved: 40+ Practice Problems
+
+| Problem Category | Number Solved | Key Problems |
+|-----------------|---------------|--------------|
+| Search Fundamentals | 8+ | Linear search, binary search iterative/recursive, last occurrence |
+| Binary Search Variations | 8+ | First occurrence, last occurrence, count occurrences, lower/upper bound |
+| Basic Sorting | 6+ | Bubble sort, selection sort, insertion sort implementations |
+| Advanced Sorting | 4+ | Merge sort implementation, quick sort implementation |
+| Sorting-Based Problems | 8+ | Two sum, contains duplicate, merge intervals, array intersection |
+| Mixed Practice | 6+ | Search insert position, peak element, move zeros, first/last position |
+
+---
+
+### 📈 Complexity Patterns Mastered
+
+| Technique | Time Complexity | Space Complexity | Use Case |
+|-----------|-----------------|------------------|----------|
+| Linear Search | O(n) | O(1) | Searching unsorted arrays |
+| Binary Search | O(log n) | O(1) | Searching sorted arrays |
+| Bubble/Selection Sort | O(n²) | O(1) | Learning sorting mechanics |
+| Insertion Sort | O(n²) | O(1) | Small or nearly sorted arrays |
+| Merge Sort | O(n log n) | O(n) | Stable sorting for large data |
+| Quick Sort | O(n log n) avg | O(log n) | Fast practical sorting |
+| Two-Pointer on Sorted | O(n) | O(1) | Pair finding, merging |
+| Dutch National Flag | O(n) | O(1) | Three-way categorical sorting |
+| Interval Merging | O(n log n) | O(n) | Overlapping interval problems |
+
+---
+
+### 🏆 Week 4 Achievements
+
+- ✅ Mastered 2 core searching algorithms and their variations
+- ✅ Learned 5 sorting algorithms from basic to advanced
+- ✅ Understood divide-and-conquer strategy through Merge Sort and Quick Sort
+- ✅ Achieved O(n log n) optimization from O(n²) with advanced sorting
+- ✅ Achieved O(log n) search optimization from O(n) with binary search
+- ✅ Solved 40+ problems across searching and sorting categories
+- ✅ Mastered boundary handling in binary search variations
+- ✅ Learned to combine sorting with two-pointer for efficient solutions
+- ✅ Built interval merging skills for real-world problems
+- ✅ Created comprehensive documentation for each algorithm
+
+---
+
+### 🔥 Key Takeaways from Week 4
+
+1. **Binary search reduces search time dramatically** — O(n) → O(log n) when arrays are sorted
+2. **Sorting algorithms differ significantly in efficiency** — Advanced algorithms reach O(n log n) vs O(n²) for basic sorts
+3. **Divide-and-conquer powers efficient algorithms** — Merge Sort and Quick Sort demonstrate recursive decomposition
+4. **Boundary handling is critical in binary search** — Off-by-one errors are common in first/last occurrence
+5. **Two-pointer technique simplifies sorted array problems** — Reduces nested loops to single pass O(n)
+6. **Sorting transforms complex problems** — Enables structured comparisons and interval merging
+7. **Algorithm choice matters** — Selecting right technique based on input size and constraints
+8. **Stability matters in sorting** — When preserving original order of equal elements is important
+9. **In-place vs auxiliary space trade-off** — Quick Sort saves space but is unstable; Merge Sort stable but uses extra space
+10. **Pattern recognition improves with practice** — Mixed problems reveal which technique fits which scenario
+
+---
+
+### 🔗 Connections Between Topics Mastered
+
+| Topic Connection | Why It Matters |
+|------------------|----------------|
+| Linear Search → Binary Search | Shows how sorted data enables faster searching |
+| Binary Search → Boundary Problems | Enables finding first/last positions and insertion points |
+| Basic Sorting → Advanced Sorting | Progression from O(n²) to O(n log n) efficiency |
+| Sorting → Two Pointers | Sorted arrays enable efficient pointer traversal |
+| Merge Sort → Divide & Conquer | Demonstrates recursive problem decomposition |
+| Quick Sort → Partitioning | Shows how pivot-based logic organizes arrays |
+| Sorting → Interval Problems | Sorted intervals simplify overlap detection |
+| Two Pointers → Dutch National Flag | Both use multiple pointers for efficient traversal |
+| Binary Search → Search Insert Position | Binary search adapts to find insertion indices |
+
+---
+
+### 📂 Week 4 Resources
+- [📁 Day 22: Linear & Binary Search](./WEEK-4/DAY-22/README.md)
+- [📁 Day 23: Binary Search Variations](./WEEK-4/DAY-23/README.md)
+- [📁 Day 24: Sorting Basics](./WEEK-4/DAY-24/README.md)
+- [📁 Day 25: Merge Sort & Quick Sort](./WEEK-4/DAY-25/README.md)
+- [📁 Day 26: Sorting-Based Problems](./WEEK-4/DAY-26/README.md)
+- [📁 Day 27: Searching & Sorting Revision](./WEEK-4/DAY-27/README.md)
+- [📁 Day 28: Mixed Practice & Mock Problems](./WEEK-4/DAY-28/README.md)
+
+---
